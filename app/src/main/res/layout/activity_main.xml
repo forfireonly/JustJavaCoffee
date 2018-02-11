@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coffeeframe"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/bottom1"
+        android:paddingTop="@dimen/top1"
+        android:text="@string/text1"
+        android:textAllCaps="true"
+        android:textColor="@color/color1"
+        android:textSize="@dimen/size1"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="@dimen/width1"
+            android:layout_height="@dimen/height1"
+            android:background="@color/color2"
+            android:onClick="decriment"
+            android:text="@string/text2"
+            android:textSize="@dimen/textsize2"
+
+            />
+
+        <TextView
+            android:id="@+id/quantity_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginleft3"
+            android:layout_marginRight="@dimen/marginright3"
+            android:text="@string/text3"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/textsize3"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="@dimen/width4"
+            android:layout_height="@dimen/height4"
+            android:background="@color/color4"
+            android:onClick="increment"
+            android:text="@string/text4"
+            android:textSize="@dimen/textsize4" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margintop5"
+        android:text="@string/text5"
+        android:textAllCaps="true"
+        android:textColor="@color/color5"
+        android:textSize="@dimen/textsize5"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/price_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margintop6"
+        android:layout_marginBottom="@dimen/marginbotttom6"
+        android:text="@string/text6"
+        android:textColor="@color/color6"
+        android:textSize="@dimen/textsize6"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/coffeeneed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/coffeeneed" />
+
+    <ToggleButton
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margintop8"
+        android:background="@color/color8"
+        android:onClick="onClick"
+        android:textColor="@color/textcolor8"
+        android:textOff="@string/text8"
+        android:textOn="@string/text82"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

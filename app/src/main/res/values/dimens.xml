@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom1">10dp</dimen>
+    <dimen name="top1">40dp</dimen>
+    <dimen name="size1">15sp</dimen>
+    <dimen name="width1">48dp</dimen>
+    <dimen name="height1">48dp</dimen>
+    <dimen name="textsize2">20sp</dimen>
+    <dimen name="marginleft3">8dp</dimen>
+    <dimen name="marginright3">8dp</dimen>
+    <dimen name="textsize3">20sp</dimen>
+    <dimen name="width4">48dp</dimen>
+    <dimen name="height4">48dp</dimen>
+    <dimen name="textsize4">20sp</dimen>
+    <dimen name="margintop5">20dp</dimen>
+    <dimen name="textsize5">15sp</dimen>
+    <dimen name="margintop6">16dp</dimen>
+    <dimen name="marginbotttom6">16dp</dimen>
+    <dimen name="textsize6">16sp</dimen>
+    <dimen name="margintop8">25dp</dimen>
+</resources>
